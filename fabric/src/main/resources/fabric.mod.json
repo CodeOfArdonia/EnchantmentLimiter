@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantment_limiter",
+  "version": "${version}",
+  "name": "Enchantment Limiter",
+  "description": "Limit the highest level of enchantments",
+  "authors": [
+    "IAFEnvoy"
+  ],
+  "contact": {
+    "sources": "https://github.com/CodeOfArdonia/EnchantmentLimiter"
+  },
+  "license": "MIT",
+  "icon": "assets/enchantment_limiter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.iafenvoy.el.fabric.ExampleModFabric"
+    ],
+    "client": [
+      "com.iafenvoy.el.fabric.client.ExampleModFabricClient"
+    ]
+  },
+  "mixins": [
+    "enchantment_limiter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~1.20.1"
+  }
+}

@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/CodeOfArdonia/EnchantmentLimiter/issues"
+license = "MIT"
+
+[[mods]]
+modId = "enchantment_limiter"
+version = "${version}"
+displayName = "Enchantment Limiter"
+authors = "IAFEnvoy"
+description = '''
+Limit the highest level of enchantments
+'''
+#logoFile = ""
+
+[[dependencies.enchantment_limiter]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.enchantment_limiter]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.5)"
+ordering = "NONE"
+side = "BOTH"
